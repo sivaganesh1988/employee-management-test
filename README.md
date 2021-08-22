@@ -27,7 +27,7 @@ Github Actions is already enabled for this repo. Build can be triggered by any o
 
 Report will be auto-updated in the below github pages URL after performing any of the above step.
 
-[Access the test execution report here](https://sivaganesh1988.github.io/profanity-filter-test/)
+[Access the test execution report here](https://sivaganesh1988.github.io/employee-management-test/)
 
 - Using local machine
 
