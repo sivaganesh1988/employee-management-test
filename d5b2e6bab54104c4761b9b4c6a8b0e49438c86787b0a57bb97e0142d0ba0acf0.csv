@@ -1,2 +1,2 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Deleting an existing employee","Validating the ability to delete an existing employee in an organization when valid employee id is provided","SUCCESS","2021-08-22T17:00:31.594Z[Etc/UTC]","0.0","0.56"
+"Deleting an existing employee","Validating the ability to delete an existing employee in an organization when valid employee id is provided","SUCCESS","2021-08-22T17:45:50.91Z[Etc/UTC]","0.0","0.51"

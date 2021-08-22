@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="Creating a new employee" skipped="0" tests="2" time="0.99" timestamp="2021-08-22 05:00:41"><testcase name="Validating the ability to restrict new employee creation in an organization when invalid employee data is provided"><failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
-Expected status code &lt;400&gt; but was &lt;200&gt;.
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="Creating a new employee" skipped="0" tests="2" time="1.03" timestamp="2021-08-22 05:45:58"><testcase name="Validating the ability to restrict new employee creation in an organization when invalid employee data is provided"><failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;429&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;429&gt;.
 </failure><system-err>1 expectation failed.
-Expected status code &lt;400&gt; but was &lt;200&gt;.
+Expected status code &lt;400&gt; but was &lt;429&gt;.
 
 io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
 io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)

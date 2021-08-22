@@ -1,4 +1,3 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Updating existing employee details","Validating the ability to update existing employee details in an organization","ERROR","2021-08-22T17:00:43.516Z[Etc/UTC]","0.0","1.09"
-"Viewing employee(s) details","Validating the ability to view an existing employee in an organization","SUCCESS","2021-08-22T17:00:33.969Z[Etc/UTC]","0.0","0.58"
-"Viewing employee(s) details","Validating the ability to view all existing employee in an organization","FAILURE","2021-08-22T17:00:44.604Z[Etc/UTC]","0.0","0.57"
+"Updating existing employee details","Validating the ability to update existing employee details in an organization","SUCCESS","2021-08-22T17:45:54.911Z[Etc/UTC]","0.0","0.56"
+"Viewing employee(s) details","Validating the ability to view all existing employee in an organization","FAILURE","2021-08-22T17:46:00.153Z[Etc/UTC]","0.0","0.5"
