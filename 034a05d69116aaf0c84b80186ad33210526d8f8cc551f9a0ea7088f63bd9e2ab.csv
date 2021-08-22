@@ -1,3 +1,3 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Creating a new employee","Validating the ability to restrict new employee creation in an organization when invalid employee data is provided","FAILURE","2021-08-22T16:57:19.166Z[Etc/UTC]","0.0","1.11"
-"Deleting an existing employee","Validating the ability to restrict employee deletion in an organization when invalid employee id is provided","FAILURE","2021-08-22T16:57:20.286Z[Etc/UTC]","0.0","0.49"
+"Creating a new employee","Validating the ability to restrict new employee creation in an organization when invalid employee data is provided","FAILURE","2021-08-22T17:00:41.98Z[Etc/UTC]","0.0","0.99"
+"Deleting an existing employee","Validating the ability to restrict employee deletion in an organization when invalid employee id is provided","FAILURE","2021-08-22T17:00:42.978Z[Etc/UTC]","0.0","0.54"

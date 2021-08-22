@@ -154,9 +154,9 @@
     <div id="contenttop">
         <div class="middlebg">
         <span class="breadcrumbs"><a href="index.html">Home</a>
-                > Tag 
+                > Feature 
                 > <span
-                    class="truncate-60">Negative (Pending Tests)</span>
+                    class="truncate-60">Viewing Employee(S) Details (Failing Tests)</span>
         </span>
         </div>
         <div class="rightbg"></div>
@@ -188,23 +188,23 @@
         <div class="middlb">
             <div class="table">
 
-                <h2><i class='fa fa-tags'></i> Tag: Negative (Pending Tests)</h2>
+                <h2><i class='fa fa-tags'></i> Feature: Viewing Employee(S) Details (Failing Tests)</h2>
                 <table class='overview'>
                     <tr>
                         <td width="375px" valign="top">
                             <div class="test-count-summary">
                                 <div>
 
-                                0 tests
-                                    across 0 scenarios
+                                1 test
+                                    across 1 scenario
 
                                      |
-                                        <a href="245107bfd8df3364cc840eafae10f90df71b03100ade7fb9a46043ed123e75f1.csv" title="Download CSV"> <i class="fa fa-download"
+                                        <a href="268ba81fca784f698437ba74cd836177e9fb868253d389307e7e49b264086c12.csv" title="Download CSV"> <i class="fa fa-download"
                                                                                         title="Download CSV"></i></a>
 
                                     <p class="report-info"><i class="fas fa-info-circle"></i> Note that results include
-                                        data-driven scenarios containing tests ,
-                                        which may also contain results other than tests .</p>
+                                        data-driven scenarios containing test ,
+                                        which may also contain results other than test .</p>
 
 
 
@@ -229,6 +229,54 @@
                                             <div class="container-fluid">
                                                 <div class="row">
                                                     <div class="col-sm-4">
+                                                            <div style="width:300px;"
+                                                                 class="chart-container automated-and-manual-results">
+                                                                <div class="ct-chart ct-square"></div>
+                                                            </div>
+                                                            <script>
+
+                                                                var labels = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '100%', ' ', ' ', ' ', ' ', ' '];
+                                                                // Our series array that contains series objects or in this case series data arrays
+
+                                                                var series = [{meta: 'Passing tests (automated)', value: 0}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 1}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 0}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
+
+                                                                // As options we currently only set a static size of 300x200 px. We can also omit this and use aspect ratio containers
+                                                                // as you saw in the previous example
+                                                                var options = {
+                                                                    width: 350,
+                                                                    height: 300
+                                                                };
+
+
+                                                                new Chartist.Pie('.ct-chart', {
+                                                                    series: series,
+                                                                    labels: labels
+                                                                }, {
+                                                                    plugins: [Chartist.plugins.tooltip()],
+                                                                    donut: true,
+                                                                    donutWidth: 60,
+                                                                    donutSolid: true,
+                                                                    startAngle: 270,
+                                                                    showLabel: true
+                                                                }, options);
+
+
+                                                                $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+                                                                    new Chartist.Pie('.ct-chart', {
+                                                                        series: series,
+                                                                        labels: labels
+                                                                    }, {
+                                                                        plugins: [Chartist.plugins.tooltip()],
+                                                                        donut: true,
+                                                                        donutWidth: 60,
+                                                                        donutSolid: true,
+                                                                        startAngle: 270,
+                                                                        showLabel: true
+                                                                    }, options);
+                                                                });
+
+
+                                                            </script>
                                                     </div>
                                                     <div class="col-sm-8">
 
@@ -271,17 +319,18 @@
                                                                 <td class="automated-stats"> </td>
                                                             </tr>
                                                             <tr>
-                                                                            <td colspan="3"><i
-                                                                                class='fa fa-times failure-icon'></i>&nbsp;<em>Unsuccessful</em></a>
+                                                                            <td colspan="3"><a
+                                                                                    href="eb74fe2b284632b4e200e5558ef59fb73c93dd0e201d1ebd6af3db4af1e3e391.html"><i
+                                                                                    class='fa fa-times failure-icon'></i>&nbsp;<em>Unsuccessful</em></a>
                                                                             </td>
                                                             </tr>
                                                             <tr>
-                                                                <td class="aggregate-result-count indented-error-category">
-                                                                    <i
-                                                                            class='fa fa-times-circle failure-icon'></i>&nbsp;Failed
-                                                                </td>
-                                                                <td class="automated-stats">0</td>
-                                                                <td class="automated-stats"> </td>
+                                                                    <td class="aggregate-result-count indented-error-category">
+                                                                        <a href="5173bda27a0de4e77425b6effb82d2c172c33fa49dbfde8ca8c2437d551e7236.html"><i
+                                                                                class='fa fa-times-circle failure-icon'></i>&nbsp;Failed</a>
+                                                                    </td>
+                                                                <td class="automated-stats">1</td>
+                                                                <td class="automated-stats">100%</td>
                                                             <tr>
                                                                 <td class="aggregate-result-count indented-error-category">
                                                                     <i
@@ -299,7 +348,7 @@
                                                             </tr>
                                                             <tr class="summary-stats">
                                                                 <td class="aggregate-result-count">Total</td>
-                                                                <td class="automated-stats">0</td>
+                                                                <td class="automated-stats">1</td>
                                                                 <td class="automated-stats"></td>
                                                             </tr>
                                                             </tbody>
@@ -307,7 +356,61 @@
                                                     </div>
                                                 </div>
 
+                                                <div class="row">
+                                                    <div class="col-sm-6">
+                                                        <h3>Test Failure Overview</h3>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-6">
+                                                        <h4>Most Frequent Failures</h4>
+                                                        <table class="table">
+                                                            <tbody>
+                                                            <tr>
+                                                                <td class="failure-color top-list-title">
+                                                                    <a href="a0ace456df350117335ad374e8d62c0d8c978db868ea1469e0c5ba32aac965ea.html"><a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> Assertion error</a>
+                                                                </td>
+                                                                <td><span
+                                                                        class="badge failure-badge">1</span>
+                                                                </td>
+                                                            </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        <h4>Most Unstable Features</h4>
+                                                        <table class="table">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td class="failure-color top-list-title"><a
+                                                                            href="14d87a196bd358cd98db8932ac6e0ea8112d89518a42bfce43d9ff6226925af1.html">Viewing employee(s) details</a>
+                                                                    </td>
+                                                                    <td><span
+                                                                            class="badge failure-badge">100%</span>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
 
+                                                <div class="row">
+                                                    <div class="col-sm-12">
+                                                        <h3>Tags</h3>
+
+                                                        <div class="card">
+                                                            <div class="card-body">
+                                                                <div>
+                                                                    <a href="612d9968525961aca8edfc2756ccd8ec0f3da9f2d707948bf0fbb46a58e8eeb9.html">
+                                                                        <span class="badge"
+                                                                              style="background-color:#f8001f; margin:1em;padding:4px;"><i
+                                                                                class="fa fa-tag"></i> Positive&nbsp;&nbsp;&nbsp;1</span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                         <div id="tests" class="tab-pane fade">
@@ -316,7 +419,33 @@
                                                     <div class="col-sm-12">
                                                         <h3><i class="fas fa-cogs"></i> Automated Tests</h3>
 
-                                            No automated tests were executed
+                                            <table class="scenario-result-table table" id="scenario-results">
+                                                <thead>
+                                                <tr>
+                                                    <th>feature</th>
+                                                    <th class="test-name-column">Scenario</th>
+                                                    <th>Steps</th>
+                                                    <th>Start Time</th>
+                                                    <th>Duration</th>
+                                                    <th>Result</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr class="scenario-result FAILURE">
+                                                    <td>
+                                                            <a href="14d87a196bd358cd98db8932ac6e0ea8112d89518a42bfce43d9ff6226925af1.html">Viewing employee(s) details</a>
+                                                    </td>
+                                                    <td>
+                                                        <a href="f48bc309da2f766e31da41affe0a60ebe8c2eef8d223f7ed72fe72705ad2d208.html">Validating the ability to view all existing employee in an organization</a>
+                                                    </td>
+                                                    <td>2</td>
+                                                    <td>17:00:44</td>
+                                                    <td>566ms</td>
+                                                    <td><a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
+                                                            style="display:none">FAILURE</span></td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
 
                                                     </div>
                                                 </div>
