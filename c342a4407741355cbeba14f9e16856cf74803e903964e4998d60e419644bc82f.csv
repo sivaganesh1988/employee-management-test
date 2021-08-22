@@ -1,3 +1,2 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Deleting an existing employee","Validating the ability to delete an existing employee in an organization when valid employee id is provided","FAILURE","2021-08-22T17:46:17.675Z[Etc/UTC]","0.0","1.19"
-"Deleting an existing employee","Validating the ability to restrict employee deletion in an organization when invalid employee id is provided","FAILURE","2021-08-22T17:46:18.865Z[Etc/UTC]","0.0","0.58"
+"Deleting an existing employee","Validating the ability to restrict employee deletion in an organization when invalid employee id is provided","FAILURE","2021-08-22T21:42:30.575Z[Etc/UTC]","0.0","0.49"
