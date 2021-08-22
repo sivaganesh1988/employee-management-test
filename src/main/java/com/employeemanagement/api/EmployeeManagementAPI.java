@@ -31,6 +31,7 @@ public class EmployeeManagementAPI {
         //String webserviceEndpoint = "http://dummy.restapiexample.com/api/v1/create";
         response = SerenityRest.given()
                     .body(employee)
+                .header("Content-Type","application/json")
                 .post(webserviceEndpoint);
     }
 
@@ -60,6 +61,7 @@ public class EmployeeManagementAPI {
         response = SerenityRest.given()
                 .pathParam("employeeId",id)
                 .body(employee)
+                .header("Content-Type","application/json")
                 .put(webserviceEndpoint);
     }
 
