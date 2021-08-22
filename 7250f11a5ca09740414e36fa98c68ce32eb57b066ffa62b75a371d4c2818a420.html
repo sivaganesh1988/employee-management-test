@@ -249,10 +249,10 @@
                                                             </div>
                                                             <script>
 
-                                                                var labels = ['56%', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '22%', ' ', ' ', ' ', ' ', ' '];
+                                                                var labels = ['22%', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '67%', ' ', ' ', ' ', ' ', ' '];
                                                                 // Our series array that contains series objects or in this case series data arrays
 
-                                                                var series = [{meta: 'Passing tests (automated)', value: 5}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 2}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 0}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
+                                                                var series = [{meta: 'Passing tests (automated)', value: 2}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 6}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 0}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
 
                                                                 // As options we currently only set a static size of 300x200 px. We can also omit this and use aspect ratio containers
                                                                 // as you saw in the previous example
@@ -311,8 +311,8 @@
                                                                         <a href="e3d9d17ce9244f092f459099441936f0555434787ce29a9915a77175cc341d79.html"><i
                                                                                     class='fa fa-check-circle-o success-icon'></i>&nbsp;Passing</a>
                                                                     </td>
-                                                                <td class="automated-stats">5</td>
-                                                                <td class="automated-stats">56%</td>
+                                                                <td class="automated-stats">2</td>
+                                                                <td class="automated-stats">22%</td>
                                                             </tr>
                                                             <tr>
                                                                     <td class="aggregate-result-count"><i
@@ -346,8 +346,8 @@
                                                                         <a href="81344f99d793befefd6491c011a38e3de46695ab3c3c712407d1b6a37db96512.html"><i
                                                                                     class='fa fa-times-circle failure-icon'></i>&nbsp;Failed</a>
                                                                     </td>
-                                                                <td class="automated-stats">2</td>
-                                                                <td class="automated-stats">22%</td>
+                                                                <td class="automated-stats">6</td>
+                                                                <td class="automated-stats">67%</td>
                                                             <tr>
                                                                     <td class="aggregate-result-count indented-error-category">
                                                                         <i
@@ -387,11 +387,11 @@
                                                             </thead>
                                                             <tbody>
                                                             <tr>
-                                                                <td>3s</td>
-                                                                <td>14s</td>
-                                                                <td>493ms</td>
-                                                                <td>580ms</td>
-                                                                <td>637ms</td>
+                                                                <td>4s</td>
+                                                                <td>10s</td>
+                                                                <td>511ms</td>
+                                                                <td>702ms</td>
+                                                                <td>925ms</td>
                                                             </tr>
                                                             </tbody>
                                                         </table>
@@ -421,7 +421,7 @@
                                                                                         <a href="afac8439f40beedf9cae1606c07c4536e5c280b779e7cbf7b44e260a56c58a4a.html">Creating a new employee</a>
                                                                                 </td>
                                                                                 <td>2</td>
-                                                                                <td>50%</td>
+                                                                                <td>100%</td>
                                                                                 <td>
                                                                                         <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
                                                                                 </td>
@@ -429,9 +429,9 @@
                                                                                     <div class="progress">
                                                                                             <div class="progress-bar"
                                                                                                  role="progressbar"
-                                                                                                 style="width: 50%; background-color: #30cb23"
-                                                                                                 aria-valuenow="1"
-                                                                                                 title="50% success"
+                                                                                                 style="width: 100%; background-color: #30cb23"
+                                                                                                 aria-valuenow="2"
+                                                                                                 title="100% success"
                                                                                                  aria-valuemin="0"
                                                                                                  aria-valuemax="100">
                                                                                             </div>
@@ -443,17 +443,17 @@
                                                                                         <a href="280ad9b077a5597f9097c75093fdd424dc22e62e9b12cc7dd98ad5d1c5a44c17.html">Deleting an existing employee</a>
                                                                                 </td>
                                                                                 <td>2</td>
-                                                                                <td>50%</td>
+                                                                                <td>0%</td>
                                                                                 <td>
-                                                                                        <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                                                                        <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a>
                                                                                 </td>
                                                                                 <td>
                                                                                     <div class="progress">
                                                                                             <div class="progress-bar"
                                                                                                  role="progressbar"
-                                                                                                 style="width: 50%; background-color: #30cb23"
-                                                                                                 aria-valuenow="1"
-                                                                                                 title="50% success"
+                                                                                                 style="width: 100%; background-color: #f8001f"
+                                                                                                 aria-valuenow="2"
+                                                                                                 title="100% failure"
                                                                                                  aria-valuemin="0"
                                                                                                  aria-valuemax="100">
                                                                                             </div>
@@ -465,20 +465,12 @@
                                                                                         <a href="68dcb88cc005526dbaf6fae7ace013197a0c4b54161d6149b04e0f934eee89b0.html">Updating existing employee details</a>
                                                                                 </td>
                                                                                 <td>2</td>
-                                                                                <td>50%</td>
+                                                                                <td>0%</td>
                                                                                 <td>
-                                                                                        <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                                                                        <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a>
                                                                                 </td>
                                                                                 <td>
                                                                                     <div class="progress">
-                                                                                            <div class="progress-bar"
-                                                                                                 role="progressbar"
-                                                                                                 style="width: 50%; background-color: #30cb23"
-                                                                                                 aria-valuenow="1"
-                                                                                                 title="50% success"
-                                                                                                 aria-valuemin="0"
-                                                                                                 aria-valuemax="100">
-                                                                                            </div>
                                                                                             <div class="progress-bar"
                                                                                                  role="progressbar"
                                                                                                  style="width: 50%; background-color: #f8001f"
@@ -495,7 +487,7 @@
                                                                                         <a href="14d87a196bd358cd98db8932ac6e0ea8112d89518a42bfce43d9ff6226925af1.html">Viewing employee(s) details</a>
                                                                                 </td>
                                                                                 <td>3</td>
-                                                                                <td>67%</td>
+                                                                                <td>0%</td>
                                                                                 <td>
                                                                                         <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a>
                                                                                 </td>
@@ -503,17 +495,9 @@
                                                                                     <div class="progress">
                                                                                             <div class="progress-bar"
                                                                                                  role="progressbar"
-                                                                                                 style="width: 66.666667%; background-color: #30cb23"
-                                                                                                 aria-valuenow="2"
-                                                                                                 title="67% success"
-                                                                                                 aria-valuemin="0"
-                                                                                                 aria-valuemax="100">
-                                                                                            </div>
-                                                                                            <div class="progress-bar"
-                                                                                                 role="progressbar"
-                                                                                                 style="width: 33.333333%; background-color: #f8001f"
-                                                                                                 aria-valuenow="1"
-                                                                                                 title="33% failure"
+                                                                                                 style="width: 100%; background-color: #f8001f"
+                                                                                                 aria-valuenow="3"
+                                                                                                 title="100% failure"
                                                                                                  aria-valuemin="0"
                                                                                                  aria-valuemax="100">
                                                                                             </div>
@@ -540,7 +524,7 @@
                                                                             <a href="a0ace456df350117335ad374e8d62c0d8c978db868ea1469e0c5ba32aac965ea.html"><a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> Assertion error</a>
                                                                         </td>
                                                                         <td><span
-                                                                                    class="badge failure-badge">1</span>
+                                                                                    class="badge failure-badge">6</span>
                                                                         </td>
                                                                     </tr>
                                                                 </tbody>
@@ -552,7 +536,15 @@
                                                                 <tbody>
                                                                     <tr>
                                                                         <td class="failure-color top-list-title"><a
-                                                                                    href="68dcb88cc005526dbaf6fae7ace013197a0c4b54161d6149b04e0f934eee89b0.html">Updating existing employee details</a>
+                                                                                    href="14d87a196bd358cd98db8932ac6e0ea8112d89518a42bfce43d9ff6226925af1.html">Viewing employee(s) details</a>
+                                                                        </td>
+                                                                        <td><span
+                                                                                    class="badge failure-badge">66%</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="failure-color top-list-title"><a
+                                                                                    href="280ad9b077a5597f9097c75093fdd424dc22e62e9b12cc7dd98ad5d1c5a44c17.html">Deleting an existing employee</a>
                                                                         </td>
                                                                         <td><span
                                                                                     class="badge failure-badge">50%</span>
@@ -560,10 +552,10 @@
                                                                     </tr>
                                                                     <tr>
                                                                         <td class="failure-color top-list-title"><a
-                                                                                    href="14d87a196bd358cd98db8932ac6e0ea8112d89518a42bfce43d9ff6226925af1.html">Viewing employee(s) details</a>
+                                                                                    href="68dcb88cc005526dbaf6fae7ace013197a0c4b54161d6149b04e0f934eee89b0.html">Updating existing employee details</a>
                                                                         </td>
                                                                         <td><span
-                                                                                    class="badge failure-badge">33%</span>
+                                                                                    class="badge failure-badge">50%</span>
                                                                         </td>
                                                                     </tr>
                                                                 </tbody>
@@ -618,13 +610,13 @@
                                                                                 (2 examples)
                                                                         </td>
                                                                         <td>2</td>
-                                                                        <td>17:45:49</td>
-                                                                        <td>497ms</td>
+                                                                        <td>17:46:10</td>
+                                                                        <td>1s 230ms</td>
                                                                         <td><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
                                                                                     style="display:none">SUCCESS</span>
                                                                         </td>
                                                                     </tr>
-                                                                    <tr class="scenario-result SUCCESS">
+                                                                    <tr class="scenario-result FAILURE">
                                                                         <td>
                                                                                 <a href="280ad9b077a5597f9097c75093fdd424dc22e62e9b12cc7dd98ad5d1c5a44c17.html">Deleting an existing employee</a>
                                                                         </td>
@@ -633,13 +625,13 @@
                                                                                 (2 examples)
                                                                         </td>
                                                                         <td>2</td>
-                                                                        <td>17:45:50</td>
-                                                                        <td>511ms</td>
-                                                                        <td><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
-                                                                                    style="display:none">SUCCESS</span>
+                                                                        <td>17:46:17</td>
+                                                                        <td>1s 185ms</td>
+                                                                        <td><a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
+                                                                                    style="display:none">FAILURE</span>
                                                                         </td>
                                                                     </tr>
-                                                                    <tr class="scenario-result SUCCESS">
+                                                                    <tr class="scenario-result FAILURE">
                                                                         <td>
                                                                                 <a href="68dcb88cc005526dbaf6fae7ace013197a0c4b54161d6149b04e0f934eee89b0.html">Updating existing employee details</a>
                                                                         </td>
@@ -648,13 +640,13 @@
                                                                                 (2 examples)
                                                                         </td>
                                                                         <td>2</td>
-                                                                        <td>17:45:54</td>
-                                                                        <td>562ms</td>
-                                                                        <td><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
-                                                                                    style="display:none">SUCCESS</span>
+                                                                        <td>17:46:19</td>
+                                                                        <td>557ms</td>
+                                                                        <td><a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
+                                                                                    style="display:none">FAILURE</span>
                                                                         </td>
                                                                     </tr>
-                                                                    <tr class="scenario-result SUCCESS">
+                                                                    <tr class="scenario-result FAILURE">
                                                                         <td>
                                                                                 <a href="14d87a196bd358cd98db8932ac6e0ea8112d89518a42bfce43d9ff6226925af1.html">Viewing employee(s) details</a>
                                                                         </td>
@@ -663,10 +655,10 @@
                                                                                 (2 examples)
                                                                         </td>
                                                                         <td>2</td>
-                                                                        <td>17:45:45</td>
-                                                                        <td>1s 118ms</td>
-                                                                        <td><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
-                                                                                    style="display:none">SUCCESS</span>
+                                                                        <td>17:46:20</td>
+                                                                        <td>1s 073ms</td>
+                                                                        <td><a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
+                                                                                    style="display:none">FAILURE</span>
                                                                         </td>
                                                                     </tr>
                                                                     <tr class="scenario-result FAILURE">
@@ -677,8 +669,8 @@
                                                                             <a href="f48bc309da2f766e31da41affe0a60ebe8c2eef8d223f7ed72fe72705ad2d208.html">Validating the ability to view all existing employee in an organization</a>
                                                                         </td>
                                                                         <td>2</td>
-                                                                        <td>17:46:00</td>
-                                                                        <td>499ms</td>
+                                                                        <td>17:46:21</td>
+                                                                        <td>581ms</td>
                                                                         <td><a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
                                                                                     style="display:none">FAILURE</span>
                                                                         </td>

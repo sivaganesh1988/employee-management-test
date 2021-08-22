@@ -152,7 +152,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 22-08-2021 17:45</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 22-08-2021 17:46</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -189,9 +189,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">
+                                <span class="failing-color">
                                     Validating the ability to delete an existing employee in an organization when valid employee id is provided
                                         <span class="related-issue-title"></span>
                                 </span>
@@ -236,14 +236,14 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="test-SUCCESS"><a href="#0">1</a></td>
-                                <td class="test-SUCCESS"><a
+                            <td class="test-FAILURE"><a href="#0">1</a></td>
+                                <td class="test-FAILURE"><a
                                             href="#0">1</a>
                                 </td>
                         </tr>
                         <tr>
-                            <td class="test-UNDEFINED"><a href="#1">2</a></td>
-                                <td class="test-UNDEFINED"><a
+                            <td class="test-FAILURE"><a href="#1">2</a></td>
+                                <td class="test-FAILURE"><a
                                             href="#1">2</a>
                                 </td>
                         </tr>
@@ -268,13 +268,13 @@
                     <td colspan="5"></td>
                 </tr>
 
-                    <tr class="test-SUCCESS">
+                    <tr class="test-FAILURE">
 
                         <td width="50" class="step-icon">
                             <a name="0"></a>
                                 <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
                                    style="display:block">
-                                    <i class="fa fa-plus-square-o imgstepSection0 success-icon"
+                                    <i class="fa fa-plus-square-o imgstepSection0 failure-icon"
                                        style="margin-left: 20px; float:left; padding-right:5px"></i>
                                 </a>
                         </td>
@@ -292,8 +292,8 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">0.51s</span></td>
+                        <td width="130"><span class="top-level-step">FAILURE</span></td>
+                        <td width="100"><span class="top-level-step">0.57s</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
@@ -324,7 +324,7 @@
                         </td>
 
                         <td width="130"><span class="nested-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-step">0.5s</span></td>
+                        <td width="100"><span class="nested-step">0.56s</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
@@ -359,14 +359,14 @@
                                 <div class="card-body">
                                     <h4>Response</h4>
                                         <p>URL: http://dummy.restapiexample.com/api/v1/delete/1</p>
-                                        <p>Status code: 200</p>
+                                        <p>Status code: 429</p>
                                         <p>Content Type: null</p>
                                         <h4>Request Headers</h4>
                                         <pre>Accept=*/*</pre>
                                         <h4>Response Headers</h4>
-                                        <pre>Date: Sun, 22 Aug 2021 17:45:51 GMT<br>Content-Type: application/json<br>Transfer-Encoding: chunked<br>Connection: keep-alive<br>cache-control: no-cache, private, max-age=31536000<br>display: staticcontent_sol, staticcontent_sol<br>expires: Mon, 22 Aug 2022 17:45:51 GMT<br>host-header: c2hhcmVkLmJsdWVob3N0LmNvbQ==<br>referrer-policy: <br>response: 200<br>vary: Accept-Encoding<br>vary: Accept-Encoding,Origin<br>x-ezoic-cdn: Miss<br>x-middleton-display: staticcontent_sol, staticcontent_sol<br>x-middleton-response: 200<br>x-origin-cache-control: no-cache, private<br>x-ratelimit-limit: 60<br>x-ratelimit-remaining: 58<br>x-sol: pub_site<br>CF-Cache-Status: DYNAMIC<br>Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=H%2BDQwgUhLFdrF7TXfYo19LATDsodmvTMU%2FxyACtHJf4VggFXfMAUepUG9r0A2R0OIve5slYpFqJ4UUKv9lUE9%2B89xBTDR1UyRaUnNt1pAI0lA3a2k9H7qhsu%2BqI%2FO6U34lYCAseCO3VdfjY%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>Server: cloudflare<br>CF-RAY: 682deacd78b161e2-YVR<br>Content-Encoding: gzip<br>alt-svc: h3-27=&quot;:443&quot;; ma=86400, h3-28=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400, h3=&quot;:443&quot;; ma=86400</pre>
+                                        <pre>Date: Sun, 22 Aug 2021 17:46:18 GMT<br>Content-Type: text/html; charset=UTF-8<br>Transfer-Encoding: chunked<br>Connection: keep-alive<br>display: staticcontent_sol<br>expires: Sat, 21 Aug 2021 17:46:18 GMT<br>host-header: c2hhcmVkLmJsdWVob3N0LmNvbQ==<br>pagespeed: off<br>referrer-policy: <br>response: 429<br>retry-after: 23<br>vary: Accept-Encoding<br>vary: Accept-Encoding,Origin<br>x-ezoic-cdn: Miss<br>x-middleton-display: staticcontent_sol<br>x-middleton-response: 429<br>x-origin-cache-control: no-cache, private<br>x-ratelimit-limit: 60<br>x-ratelimit-remaining: 52<br>x-ratelimit-reset: 1629654401<br>x-sol: pub_site<br>CF-Cache-Status: DYNAMIC<br>Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=JPtSLpM95Vv45OZkIPxvh%2BFhePmeYHyxeislqJba7w5qsaauujYFQHQCxr3tikIlAhpaSvo5jfgBpK%2BEGa3MnwPPEsfYrOVb%2FcAuj%2FrOnuLyhnfmmbA3OL081a%2F76XE4T1ZaFLxkcjtEL34%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>Server: cloudflare<br>CF-RAY: 682deb7498661376-YVR<br>alt-svc: h3-27=&quot;:443&quot;; ma=86400, h3-28=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400, h3=&quot;:443&quot;; ma=86400</pre>
                                     <h4>Response Body</h4>
-                                        <pre>{<br>    &quot;status&quot;: &quot;success&quot;,<br>    &quot;data&quot;: &quot;1&quot;,<br>    &quot;message&quot;: &quot;Successfully! Record has been deleted&quot;<br>}</pre>
+                                        <pre>&lt;html lang=&quot;en&quot;&gt;<br>  &lt;head&gt;<br>    &lt;meta charset=&quot;utf-8&quot;/&gt;<br>    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;/&gt;<br>    &lt;title&gt;Too Many Requests&lt;/title&gt;<br>    &lt;link rel=&quot;dns-prefetch&quot; href=&quot;//fonts.gstatic.com&quot;/&gt;<br>    &lt;link href=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; rel=&quot;stylesheet&quot;/&gt;<br>    &lt;style&gt;<br>            html, body {<br>                background-color: #fff;<br>                color: #636b6f;<br>                font-family: 'Nunito', sans-serif;<br>                font-weight: 100;<br>                height: 100vh;<br>                margin: 0;<br>            }<br><br>            .full-height {<br>                height: 100vh;<br>            }<br><br>            .flex-center {<br>                align-items: center;<br>                display: flex;<br>                justify-content: center;<br>            }<br><br>            .position-ref {<br>                position: relative;<br>            }<br><br>            .code {<br>                border-right: 2px solid;<br>                font-size: 26px;<br>                padding: 0 15px 0 15px;<br>                text-align: center;<br>            }<br><br>            .message {<br>                font-size: 18px;<br>                text-align: center;<br>            }<br>        &lt;/style&gt;<br>  &lt;/head&gt;<br>  &lt;body&gt;<br>    &lt;div class=&quot;flex-center position-ref full-height&quot;&gt;<br>      &lt;div class=&quot;code&quot;&gt;<br>                429            &lt;/div&gt;<br>      &lt;div class=&quot;message&quot; style=&quot;padding: 10px;&quot;&gt;<br>                Too Many Requests            &lt;/div&gt;<br>    &lt;/div&gt;<br>  &lt;/body&gt;<br>&lt;/html&gt;</pre>
                                 </div>
                             </div>
                         </div>
@@ -383,12 +383,12 @@
                                 </table>
                             </td>
                         </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-FAILURE">
 
                         <td width="70" class="step-icon">
                             <a name="0-1"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a>
                                 </span>
                         </td>
 
@@ -398,26 +398,159 @@
                                                 Then he should be able to delete the employee successfully
                                         </span>
                                 <span class="evidence">
-                                            <span class="piece-of-evidence">
-                <a name="report-data-1444b60d-30f4-4930-95ae-c996587110b9"></a>
-                <span>
-                    <button type="button" class="btn btn-success btn-sm" data-toggle="collapse"
-                            data-target="#reportData-EVIDENCE-4-0">
-                        Assertion Details
-                    </button>
-                </span>
-                <div class="rest-query-details">
-                    <div class="collapse multi-collapse" id="reportData-EVIDENCE-4-0" tabindex="-1" role="dialog"
-                         aria-labelledby="restModalLabel" aria-hidden="true">
-                        <div class="card">
-                            <h4 class="card-header" id="restModalLabel">
-                                Assertion Details
-                            </h4>
-                        </div>
-                        <div class="card-body"><pre>Assertions:<br>-- validated status. Expected : success Actual : success<br>-- validated message. Expected : Successfully! Record has been deleted Actual : Successfully! Record has been deleted<br></pre></div>
-                    </div>
+                                </span>
+                            </div>
+                        </td>
+
+                        <td width="130"><span class="nested-group-step">FAILURE</span></td>
+                        <td width="100"><span class="nested-group-step">0s</span></td>
+                    </tr>
+                        <tr class="test-FAILURE">
+                            <td width="40">&nbsp</td>
+                            <td width="%" colspan="3" class="error-message-cell">
+
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">java.lang.AssertionError: 1 expectation failed.<br>Expected status code &lt;200&gt; but was &lt;429&gt;.<br></span>
                 </div>
-                                            </span>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-4""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-4">
+            <div class="card">
+                <div class="card-header">
+                    <h4>java.lang.AssertionError </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)<br />io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)<br />io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)<br />io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)<br />io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy:-1)<br />groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)<br />groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1267)<br />io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)<br />io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:-1)<br />com.employeemanagement.stepdefinitions.EmployeeManagementStepDefinition.lambda$heShouldBeAbleToDeleteTheEmployeeSuccessfully$6(EmployeeManagementStepDefinition.java:140)<br />net.serenitybdd.rest.SerenityRest.restAssuredThat(SerenityRest.java:626)<br />com.employeemanagement.stepdefinitions.EmployeeManagementStepDefinition.heShouldBeAbleToDeleteTheEmployeeSuccessfully(EmployeeManagementStepDefinition.java:140)<br />✽.he should be able to delete the employee successfully(classpath:features/employeeManagement/deleting_an_existing_employee.feature:6)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+                            </td>
+                        </tr>
+
+                                </table>
+                            </td>
+                        </tr>
+                    <tr class="test-FAILURE">
+
+                        <td width="50" class="step-icon">
+                            <a name="1"></a>
+                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
+                                   style="display:block">
+                                    <i class="fa fa-plus-square-o imgstepSection1 failure-icon"
+                                       style="margin-left: 20px; float:left; padding-right:5px"></i>
+                                </a>
+                        </td>
+
+                        <td class="step-description-column">
+                            <div class="step-description">
+                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
+                                   style="display:block;">
+                                    <span class="top-level-step">
+                                                2: Validating the ability to delete an existing employee in an organization when valid employee id is provided ({id=2})
+                                        </span>
+                                </a>
+                                <span class="evidence">
+                                </span>
+                            </div>
+                        </td>
+
+                        <td width="130"><span class="top-level-step">FAILURE</span></td>
+                        <td width="100"><span class="top-level-step">0.61s</span></td>
+                    </tr>
+                        <tr>
+                            <td colspan="5">
+                                <table id="stepSection1" class="step-table-nested" style="display:none;">
+
+                    <tr class="test-SUCCESS">
+
+                        <td width="70" class="step-icon">
+                            <a name="1-0"></a>
+                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1-0')"
+                                   style="display:block">
+                                    <i class="fa fa-plus-square-o imgstepSection1-0 success-icon"
+                                       style="margin-left: 40px; float:left; padding-right:5px"></i>
+                                </a>
+                        </td>
+
+                        <td class="step-description-column">
+                            <div class="step-description">
+                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1-0')"
+                                   style="display:block;">
+                                    <span class="nested-step">
+                                                When Siva requests to delete an employee with 2
+                                        </span>
+                                </a>
+                                <span class="evidence">
+                                </span>
+                            </div>
+                        </td>
+
+                        <td width="130"><span class="nested-step">SUCCESS</span></td>
+                        <td width="100"><span class="nested-step">0.59s</span></td>
+                    </tr>
+                        <tr>
+                            <td colspan="5">
+                                <table id="stepSection1-0" class="step-table-nested" style="display:none;">
+
+                    <tr class="test-SUCCESS">
+
+                        <td width="90" class="step-icon">
+                            <a name="1-0-0"></a>
+                                <span style="margin-left: 60px;"
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                </span>
+                        </td>
+
+                        <td class="step-description-column">
+                            <div class="step-description">
+                                    <span class="nested-group-step">
+                                                DELETE http://dummy.restapiexample.com/api/v1/delete/2
+                                        </span>
+                                <span class="evidence">
+                                        <span class="piece-of-evidence">
+                    <span>
+                        <button type="button" class="btn btn-success btn-sm" data-toggle="collapse"
+                                data-target="#restModal-REST-7">
+                            REST Query
+                        </button>
+                    </span>
+                    <!-- Modal -->
+                    <div class="rest-query-details">
+                        <div class="collapse multi-collapse" id="restModal-REST-7">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4>Response</h4>
+                                        <p>URL: http://dummy.restapiexample.com/api/v1/delete/2</p>
+                                        <p>Status code: 429</p>
+                                        <p>Content Type: null</p>
+                                        <h4>Request Headers</h4>
+                                        <pre>Accept=*/*</pre>
+                                        <h4>Response Headers</h4>
+                                        <pre>Date: Sun, 22 Aug 2021 17:46:18 GMT<br>Content-Type: text/html; charset=UTF-8<br>Transfer-Encoding: chunked<br>Connection: keep-alive<br>display: staticcontent_sol<br>expires: Sat, 21 Aug 2021 17:46:18 GMT<br>host-header: c2hhcmVkLmJsdWVob3N0LmNvbQ==<br>pagespeed: off<br>referrer-policy: <br>response: 429<br>retry-after: 58<br>vary: Accept-Encoding<br>vary: Accept-Encoding,Origin<br>x-ezoic-cdn: Miss<br>x-middleton-display: staticcontent_sol<br>x-middleton-response: 429<br>x-origin-cache-control: no-cache, private<br>x-ratelimit-limit: 60<br>x-ratelimit-remaining: 56<br>x-ratelimit-reset: 1629654436<br>x-sol: pub_site<br>CF-Cache-Status: DYNAMIC<br>Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=1Nf92qidSJPtSGbJv0YObR66AVfXXT3QJTc%2BAhLImfSrbBbOBlc1NxP%2BFsqMqKiK8FnM%2BQn1EiWRmiywr9m4e2LhatRfozJpczwckRvITGP8QKOjXpz989GMBm2ZS1BuuCfISkktmkldU8g%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>Server: cloudflare<br>CF-RAY: 682deb783fff137e-YVR<br>alt-svc: h3-27=&quot;:443&quot;; ma=86400, h3-28=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400, h3=&quot;:443&quot;; ma=86400</pre>
+                                    <h4>Response Body</h4>
+                                        <pre>&lt;html lang=&quot;en&quot;&gt;<br>  &lt;head&gt;<br>    &lt;meta charset=&quot;utf-8&quot;/&gt;<br>    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;/&gt;<br>    &lt;title&gt;Too Many Requests&lt;/title&gt;<br>    &lt;link rel=&quot;dns-prefetch&quot; href=&quot;//fonts.gstatic.com&quot;/&gt;<br>    &lt;link href=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; rel=&quot;stylesheet&quot;/&gt;<br>    &lt;style&gt;<br>            html, body {<br>                background-color: #fff;<br>                color: #636b6f;<br>                font-family: 'Nunito', sans-serif;<br>                font-weight: 100;<br>                height: 100vh;<br>                margin: 0;<br>            }<br><br>            .full-height {<br>                height: 100vh;<br>            }<br><br>            .flex-center {<br>                align-items: center;<br>                display: flex;<br>                justify-content: center;<br>            }<br><br>            .position-ref {<br>                position: relative;<br>            }<br><br>            .code {<br>                border-right: 2px solid;<br>                font-size: 26px;<br>                padding: 0 15px 0 15px;<br>                text-align: center;<br>            }<br><br>            .message {<br>                font-size: 18px;<br>                text-align: center;<br>            }<br>        &lt;/style&gt;<br>  &lt;/head&gt;<br>  &lt;body&gt;<br>    &lt;div class=&quot;flex-center position-ref full-height&quot;&gt;<br>      &lt;div class=&quot;code&quot;&gt;<br>                429            &lt;/div&gt;<br>      &lt;div class=&quot;message&quot; style=&quot;padding: 10px;&quot;&gt;<br>                Too Many Requests            &lt;/div&gt;<br>    &lt;/div&gt;<br>  &lt;/body&gt;<br>&lt;/html&gt;</pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                        </span>
                                 </span>
                             </div>
                         </td>
@@ -429,10 +562,74 @@
                                 </table>
                             </td>
                         </tr>
-                <tr class="test-SUCCESS">
+                    <tr class="test-FAILURE">
+
+                        <td width="70" class="step-icon">
+                            <a name="1-1"></a>
+                                <span style="margin-left: 40px;"
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a>
+                                </span>
+                        </td>
+
+                        <td class="step-description-column">
+                            <div class="step-description">
+                                    <span class="nested-group-step">
+                                                Then he should be able to delete the employee successfully
+                                        </span>
+                                <span class="evidence">
+                                </span>
+                            </div>
+                        </td>
+
+                        <td width="130"><span class="nested-group-step">FAILURE</span></td>
+                        <td width="100"><span class="nested-group-step">0s</span></td>
+                    </tr>
+                        <tr class="test-FAILURE">
+                            <td width="40">&nbsp</td>
+                            <td width="%" colspan="3" class="error-message-cell">
+
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">java.lang.AssertionError: 1 expectation failed.<br>Expected status code &lt;200&gt; but was &lt;429&gt;.<br></span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-8""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-8">
+            <div class="card">
+                <div class="card-header">
+                    <h4>java.lang.AssertionError </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)<br />io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)<br />io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)<br />io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)<br />io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy:-1)<br />groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)<br />groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1267)<br />io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)<br />io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:-1)<br />com.employeemanagement.stepdefinitions.EmployeeManagementStepDefinition.lambda$heShouldBeAbleToDeleteTheEmployeeSuccessfully$6(EmployeeManagementStepDefinition.java:140)<br />net.serenitybdd.rest.SerenityRest.restAssuredThat(SerenityRest.java:626)<br />com.employeemanagement.stepdefinitions.EmployeeManagementStepDefinition.heShouldBeAbleToDeleteTheEmployeeSuccessfully(EmployeeManagementStepDefinition.java:140)<br />✽.he should be able to delete the employee successfully(classpath:features/employeeManagement/deleting_an_existing_employee.feature:6)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+                            </td>
+                        </tr>
+
+                                </table>
+                            </td>
+                        </tr>
+                <tr class="test-FAILURE">
                         <td colspan="2"></td>
-                    <td width="130"><span class="top-level-step"><em>SUCCESS</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>0.51s</em></span></td>
+                    <td width="130"><span class="top-level-step"><em>FAILURE</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>1.19s</em></span></td>
                 </tr>
 
             </table>

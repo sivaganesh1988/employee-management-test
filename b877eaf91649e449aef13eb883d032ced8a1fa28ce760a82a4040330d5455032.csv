@@ -1,2 +1,2 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Updating existing employee details","Validating the ability to update existing employee details in an organization","SUCCESS","2021-08-22T17:45:54.911Z[Etc/UTC]","0.0","0.56"
+"Updating existing employee details","Validating the ability to update existing employee details in an organization","FAILURE","2021-08-22T17:46:19.45Z[Etc/UTC]","0.0","0.56"

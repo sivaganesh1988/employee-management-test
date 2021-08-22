@@ -1,3 +1,5 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Updating existing employee details","Validating the ability to update existing employee details in an organization","SUCCESS","2021-08-22T17:45:54.911Z[Etc/UTC]","0.0","0.56"
-"Viewing employee(s) details","Validating the ability to view all existing employee in an organization","FAILURE","2021-08-22T17:46:00.153Z[Etc/UTC]","0.0","0.5"
+"Deleting an existing employee","Validating the ability to delete an existing employee in an organization when valid employee id is provided","FAILURE","2021-08-22T17:46:17.675Z[Etc/UTC]","0.0","1.19"
+"Updating existing employee details","Validating the ability to update existing employee details in an organization","FAILURE","2021-08-22T17:46:19.45Z[Etc/UTC]","0.0","0.56"
+"Viewing employee(s) details","Validating the ability to view an existing employee in an organization","FAILURE","2021-08-22T17:46:20.012Z[Etc/UTC]","0.0","1.07"
+"Viewing employee(s) details","Validating the ability to view all existing employee in an organization","FAILURE","2021-08-22T17:46:21.089Z[Etc/UTC]","0.0","0.58"

@@ -221,7 +221,7 @@
             <a href="#"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 22-08-2021 17:45</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 22-08-2021 17:46</span>
     <br style="clear:left"/>
 </div>
 
@@ -304,7 +304,7 @@
                                                                                             <a style="margin-left:0.5em;padding-right: 1.5em;"
                                                                                                href="eb0b7d79ccc6d8babc9ef5fdf22927f2703b5502ab3d922a6a1d744ed06ba6aa.html"
                                                                                                title="View test results">
-                                                                                                <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                                                                                <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a>
                                                                                                 </a>
 
 
@@ -357,11 +357,11 @@
 
                                                     <h3>Scenarios</h3>
 
-                                                        <a name="85d647d9-c16c-4aa0-a086-9ef31ff649f6" ></a>
+                                                        <a name="7b325891-fc39-425c-8207-c958a6ae639e" ></a>
 
 
                                                             <div class="scenario-docs card" id="a4e81b99668e40d4cb1b556857282bdf616564c1ca77f60a6216b310e24634d6">
-                                                                <div class="scenario-docs card-header success"
+                                                                <div class="scenario-docs card-header failure"
                                                                      style="min-height:1.5em;">
                                                                     <div>
                                                             <span class="scenario-heading">
@@ -371,7 +371,7 @@
                                                                         <span class="scenario-result-icon">
                                                                 
 
-                                                                                <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                                                                <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a>
                                                             </span>
                                                                     </div>
                                                                 </div>
@@ -387,8 +387,8 @@
 <tr><th>id</th><th>name</th><th>age</th><th>salary</th><th>profilepic</th><th></th></tr>
 </thead>
 <tbody>
-<tr><td>1</td><td>Tiger Nixon</td><td>61</td><td>320800</td><td></td><td><a href='eb0b7d79ccc6d8babc9ef5fdf22927f2703b5502ab3d922a6a1d744ed06ba6aa.html#beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a></td></tr>
-<tr><td>2</td><td>Garrett Winters</td><td>63</td><td>170750</td><td></td><td><a href='eb0b7d79ccc6d8babc9ef5fdf22927f2703b5502ab3d922a6a1d744ed06ba6aa.html#beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a></td></tr>
+<tr><td>1</td><td>Tiger Nixon</td><td>61</td><td>320800</td><td></td><td><a href='eb0b7d79ccc6d8babc9ef5fdf22927f2703b5502ab3d922a6a1d744ed06ba6aa.html#beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a></td></tr>
+<tr><td>2</td><td>Garrett Winters</td><td>63</td><td>170750</td><td></td><td><a href='eb0b7d79ccc6d8babc9ef5fdf22927f2703b5502ab3d922a6a1d744ed06ba6aa.html#beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a></td></tr>
 </tbody>
 </table></div>
 </p>
@@ -433,10 +433,10 @@
                                                 </div>
                                                 <script>
 
-                                                    var labels = ['67%', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '33%', ' ', ' ', ' ', ' ', ' '];
+                                                    var labels = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '100%', ' ', ' ', ' ', ' ', ' '];
                                                     // Our series array that contains series objects or in this case series data arrays
 
-                                                    var series = [{meta: 'Passing tests (automated)', value: 2}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 1}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 0}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
+                                                    var series = [{meta: 'Passing tests (automated)', value: 0}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 3}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 0}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
 
                                                     // As options we currently only set a static size of 300x200 px. We can also omit this and use aspect ratio containers
                                                     // as you saw in the previous example
@@ -475,12 +475,11 @@
                                                         </thead>
                                                         <tbody>
                                                         <tr>
-                                                                <td class="aggregate-result-count">
-                                                                    <a href="f8ebdc2299a0ca22bbbf9ba6248e0667dc574bf0e03b99bf6c8711760aa39b02.html"><i
-                                                                                class='fa fa-check-circle-o success-icon'></i>&nbsp;Passing</a>
+                                                                <td class="aggregate-result-count"><i
+                                                                            class='fa fa-check-circle-o success-icon'></i>&nbsp;Passing
                                                                 </td>
-                                                            <td class="automated-stats">2</td>
-                                                            <td class="automated-stats">67%</td>
+                                                            <td class="automated-stats">0</td>
+                                                            <td class="automated-stats"> </td>
                                                         </tr>
                                                         <tr>
                                                                 <td class="aggregate-result-count"><i
@@ -515,8 +514,8 @@
                                                                     <a href="5173bda27a0de4e77425b6effb82d2c172c33fa49dbfde8ca8c2437d551e7236.html"><i
                                                                                 class='fa fa-times-circle failure-icon'></i>&nbsp;Failed</a>
                                                                 </td>
-                                                            <td class="automated-stats">1</td>
-                                                            <td class="automated-stats">33%</td>
+                                                            <td class="automated-stats">3</td>
+                                                            <td class="automated-stats">100%</td>
                                                         <tr>
                                                                 <td class="aggregate-result-count indented-error-category">
                                                                     <i
@@ -557,10 +556,10 @@
                                                         <tbody>
                                                         <tr>
                                                             <td>1s</td>
-                                                            <td>14s</td>
-                                                            <td>499ms</td>
-                                                            <td>580ms</td>
-                                                            <td>808ms</td>
+                                                            <td>1s</td>
+                                                            <td>525ms</td>
+                                                            <td>581ms</td>
+                                                            <td>827ms</td>
                                                         </tr>
                                                         </tbody>
                                                     </table>
@@ -584,7 +583,7 @@
                                                             </tr>
                                                             </thead>
                                                             <tbody>
-                                                                <tr class="scenario-result SUCCESS">
+                                                                <tr class="scenario-result FAILURE">
                                                                     <td>
                                                                             <a href="eb0b7d79ccc6d8babc9ef5fdf22927f2703b5502ab3d922a6a1d744ed06ba6aa.html">Validating the ability to view an existing employee in an organization</a>
                                                                             (2 examples)
@@ -593,8 +592,8 @@
                                                                     <td> </td>
                                                                     <td> </td>
                                                                     <td>
-                                                                            <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
-                                                                                style="display:none">SUCCESS</span>
+                                                                            <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
+                                                                                style="display:none">FAILURE</span>
                                                                     </td>
                                                                 </tr>
                                                                 <tr class="scenario-result FAILURE">
