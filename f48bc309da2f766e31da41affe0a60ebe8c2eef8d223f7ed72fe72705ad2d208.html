@@ -152,7 +152,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 22-08-2021 21:42</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 29-08-2021 18:07</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -209,9 +209,54 @@
 
     <div class="clr"></div>
 
+        <div class="story-title">
+            <h3 class="story-header">Scenario Outline</h3>
+
+            <div class="scenario">When Kalai requests to view employee details of all existing employees<br>Then she should be able to view the complete employee list with details</div>
+
+        </div>
 
     <div id="beforetable"></div>
 
+
+            <h3 class="story-header">Examples:&nbsp;</h3>
+                <div class="requirementNarrative"></div>
+
+
+                <p class="example-tag">
+                </p>
+
+            <div class="example-table test-report">
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th>#</th>
+                            <th>Id</th>
+                            <th>Salary</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="test-FAILURE"><a href="#0">1</a></td>
+                                <td class="test-FAILURE"><a
+                                            href="#0">1</a>
+                                </td>
+                                <td class="test-FAILURE"><a
+                                            href="#0">320800</a>
+                                </td>
+                        </tr>
+                        <tr>
+                            <td class="test-ERROR"><a href="#1">2</a></td>
+                                <td class="test-ERROR"><a
+                                            href="#1">2</a>
+                                </td>
+                                <td class="test-ERROR"><a
+                                            href="#1">170750</a>
+                                </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
 
     <div id="tablecontents">
         <div>
@@ -230,13 +275,13 @@
                     <td colspan="5"></td>
                 </tr>
 
-                    <tr class="test-SUCCESS">
+                    <tr class="test-ERROR">
 
                         <td width="50" class="step-icon">
                             <a name="0"></a>
                                 <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
                                    style="display:block">
-                                    <i class="fa fa-plus-square-o imgstepSection0 success-icon"
+                                    <i class="fa fa-plus-square-o imgstepSection0 error-icon"
                                        style="margin-left: 20px; float:left; padding-right:5px"></i>
                                 </a>
                         </td>
@@ -246,7 +291,7 @@
                                 <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
                                    style="display:block;">
                                     <span class="top-level-step">
-                                                When Kalai requests to view employee details of all existing employees
+                                                1: Validating the ability to view all existing employee in an organization (null)
                                         </span>
                                 </a>
                                 <span class="evidence">
@@ -254,8 +299,8 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">0.55s</span></td>
+                        <td width="130"><span class="top-level-step">ERROR</span></td>
+                        <td width="100"><span class="top-level-step">0.6s</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
@@ -265,7 +310,38 @@
 
                         <td width="70" class="step-icon">
                             <a name="0-0"></a>
-                                <span style="margin-left: 40px;"
+                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0-0')"
+                                   style="display:block">
+                                    <i class="fa fa-plus-square-o imgstepSection0-0 success-icon"
+                                       style="margin-left: 40px; float:left; padding-right:5px"></i>
+                                </a>
+                        </td>
+
+                        <td class="step-description-column">
+                            <div class="step-description">
+                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0-0')"
+                                   style="display:block;">
+                                    <span class="nested-step">
+                                                When Kalai requests to view employee details of all existing employees
+                                        </span>
+                                </a>
+                                <span class="evidence">
+                                </span>
+                            </div>
+                        </td>
+
+                        <td width="130"><span class="nested-step">SUCCESS</span></td>
+                        <td width="100"><span class="nested-step">0.59s</span></td>
+                    </tr>
+                        <tr>
+                            <td colspan="5">
+                                <table id="stepSection0-0" class="step-table-nested" style="display:none;">
+
+                    <tr class="test-SUCCESS">
+
+                        <td width="90" class="step-icon">
+                            <a name="0-0-0"></a>
+                                <span style="margin-left: 60px;"
                                       class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
                                 </span>
                         </td>
@@ -279,13 +355,13 @@
                                         <span class="piece-of-evidence">
                     <span>
                         <button type="button" class="btn btn-success btn-sm" data-toggle="collapse"
-                                data-target="#restModal-REST-2">
+                                data-target="#restModal-REST-3">
                             REST Query
                         </button>
                     </span>
                     <!-- Modal -->
                     <div class="rest-query-details">
-                        <div class="collapse multi-collapse" id="restModal-REST-2">
+                        <div class="collapse multi-collapse" id="restModal-REST-3">
                             <div class="card">
                                 <div class="card-body">
                                     <h4>Response</h4>
@@ -295,7 +371,7 @@
                                         <h4>Request Headers</h4>
                                         <pre>Accept=*/*</pre>
                                         <h4>Response Headers</h4>
-                                        <pre>Date: Sun, 22 Aug 2021 21:42:31 GMT<br>Content-Type: application/json<br>Content-Length: 631<br>Connection: keep-alive<br>cache-control: no-cache, private, max-age=31536000<br>content-encoding: gzip<br>display: staticcontent_sol, staticcontent_sol<br>expires: Mon, 22 Aug 2022 21:42:31 GMT<br>host-header: c2hhcmVkLmJsdWVob3N0LmNvbQ==<br>referrer-policy: <br>response: 200<br>vary: Accept-Encoding<br>vary: Accept-Encoding,User-Agent,Origin<br>x-ezoic-cdn: Miss<br>x-middleton-display: staticcontent_sol, staticcontent_sol<br>x-middleton-response: 200<br>x-origin-cache-control: no-cache, private<br>x-ratelimit-limit: 60<br>x-ratelimit-remaining: 58<br>x-sol: pub_site<br>CF-Cache-Status: DYNAMIC<br>Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=G1jXjSPhodhDdxXyulOil0q3d3lvTeTWYXih2KE6mhL1009FXk9%2F2OPGbtz4V%2BBldev%2BvuVNBXp8JOMBS4u9myUUz9d8HFKxFwfzIImyxwWaoyz%2Fm%2FR1Ov%2BXqoGEvA9tqucMYCy4VdhkcCE%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>Server: cloudflare<br>CF-RAY: 682f457c5bf559b6-IAD<br>alt-svc: h3-27=&quot;:443&quot;; ma=86400, h3-28=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400, h3=&quot;:443&quot;; ma=86400</pre>
+                                        <pre>Date: Sun, 29 Aug 2021 18:07:57 GMT<br>Content-Type: application/json<br>Content-Length: 631<br>Connection: keep-alive<br>cache-control: no-cache, private, max-age=31536000<br>content-encoding: gzip<br>display: staticcontent_sol, staticcontent_sol<br>expires: Mon, 29 Aug 2022 18:07:56 GMT<br>host-header: c2hhcmVkLmJsdWVob3N0LmNvbQ==<br>referrer-policy: <br>response: 200<br>vary: Accept-Encoding<br>vary: Accept-Encoding,User-Agent,Origin<br>x-ezoic-cdn: Miss<br>x-middleton-display: staticcontent_sol, staticcontent_sol<br>x-middleton-response: 200<br>x-origin-cache-control: no-cache, private<br>x-ratelimit-limit: 60<br>x-ratelimit-remaining: 58<br>x-sol: pub_site<br>CF-Cache-Status: DYNAMIC<br>Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=Io83bzAwgIgeI9eFj%2BprQlbA00M7iKaCA3S8lAYblYNXgusaE9oR93ENeoMOUaf79gbX7a0jMrGMYeus6%2Bu8XYGWVzzL7VclQi7s4IgBL1BjORK3aXrqWM5ctGqsW%2FcnQUcEnxh8eLtO6ac%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>Server: cloudflare<br>CF-RAY: 6867b8cb3c5f61ef-YVR<br>alt-svc: h3-27=&quot;:443&quot;; ma=86400, h3-28=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400, h3=&quot;:443&quot;; ma=86400</pre>
                                     <h4>Response Body</h4>
                                         <pre>{<br>    &quot;status&quot;: &quot;success&quot;,<br>    &quot;data&quot;: [<br>        {<br>            &quot;id&quot;: 1,<br>            &quot;employee_name&quot;: &quot;Tiger Nixon&quot;,<br>            &quot;employee_salary&quot;: 320800,<br>            &quot;employee_age&quot;: 61,<br>            &quot;profile_image&quot;: &quot;&quot;<br>        },<br>        {<br>            &quot;id&quot;: 2,<br>            &quot;employee_name&quot;: &quot;Garrett Winters&quot;,<br>            &quot;employee_salary&quot;: 170750,<br>            &quot;employee_age&quot;: 63,<br>            &quot;profile_image&quot;: &quot;&quot;<br>        },<br>        {<br>            &quot;id&quot;: 3,<br>            &quot;employee_name&quot;: &quot;Ashton Cox&quot;,<br>            &quot;employee_salary&quot;: 86000,<br>            &quot;employee_age&quot;: 66,<br>            &quot;profile_image&quot;: &quot;&quot;<br>        },<br>        {<br>            &quot;id&quot;: 4,<br>            &quot;employee_name&quot;: &quot;Cedric Kelly&quot;,<br>            &quot;employee_salary&quot;: 433060,<br>            &quot;employee_age&quot;: 22,<br>            &quot;profile_image&quot;: &quot;&quot;<br>        },<br>        {<br>            &quot;id&quot;: 5,<br>            &quot;employee_name&quot;: &quot;Airi Satou&quot;,<br>            &quot;employee_salary&quot;: 162700,<br>            &quot;employee_age&quot;: 33,<br>            &quot;profile_image&quot;: &quot;&quot;<br>        },<br>        {<br>            &quot;id&quot;: 6,<br>            &quot;employee_name&quot;: &quot;Brielle Williamson&quot;,<br>            &quot;employee_salary&quot;: 372000,<br>            &quot;employee_age&quot;: 61,<br>            &quot;profile_image&quot;: &quot;&quot;<br>        },<br>        {<br>            &quot;id&quot;: 7,<br>            &quot;employee_name&quot;: &quot;Herrod Chandler&quot;,<br>            &quot;employee_salary&quot;: 137500,<br>            &quot;employee_age&quot;: 59,<br>            &quot;profile_image&quot;: &quot;&quot;<br>        },<br>        {<br>            &quot;id&quot;: 8,<br>            &quot;employee_name&quot;: &quot;Rhona Davidson&quot;,<br>            &quot;employee_salary&quot;: 327900,<br>            &quot;employee_age&quot;: 55,<br>            &quot;profile_image&quot;: &quot;&quot;<br>        },<br>        {<br>            &quot;id&quot;: 9,<br>            &quot;employee_name&quot;: &quot;Colleen Hurst&quot;,<br>            &quot;employee_salary&quot;: 205500,<br>            &quot;employee_age&quot;: 39,<br>            &quot;profile_image&quot;: &quot;&quot;<br>        },<br>        {<br>            &quot;id&quot;: 10,<br>            &quot;employee_name&quot;: &quot;Sonya Frost&quot;,<br>            &quot;employee_salary&quot;: 103600,<br>            &quot;employee_age&quot;: 23,<br>            &quot;profile_image&quot;: &quot;&quot;<br>        },<br>        {<br>            &quot;id&quot;: 11,<br>            &quot;employee_name&quot;: &quot;Jena Gaines&quot;,<br>            &quot;employee_salary&quot;: 90560,<br>            &quot;employee_age&quot;: 30,<br>            &quot;profile_image&quot;: &quot;&quot;<br>        },<br>        {<br>            &quot;id&quot;: 12,<br>            &quot;employee_name&quot;: &quot;Quinn Flynn&quot;,<br>            &quot;employee_salary&quot;: 342000,<br>            &quot;employee_age&quot;: 22,<br>            &quot;profile_image&quot;: &quot;&quot;<br>        },<br>        {<br>            &quot;id&quot;: 13,<br>            &quot;employee_name&quot;: &quot;Charde Marshall&quot;,<br>            &quot;employee_salary&quot;: 470600,<br>            &quot;employee_age&quot;: 36,<br>            &quot;profile_image&quot;: &quot;&quot;<br>        },<br>        {<br>            &quot;id&quot;: 14,<br>            &quot;employee_name&quot;: &quot;Haley Kennedy&quot;,<br>            &quot;employee_salary&quot;: 313500,<br>            &quot;employee_age&quot;: 43,<br>            &quot;profile_image&quot;: &quot;&quot;<br>        },<br>        {<br>            &quot;id&quot;: 15,<br>            &quot;employee_name&quot;: &quot;Tatyana Fitzpatrick&quot;,<br>            &quot;employee_salary&quot;: 385750,<br>            &quot;employee_age&quot;: 19,<br>            &quot;profile_image&quot;: &quot;&quot;<br>        },<br>        {<br>            &quot;id&quot;: 16,<br>            &quot;employee_name&quot;: &quot;Michael Silva&quot;,<br>            &quot;employee_salary&quot;: 198500,<br>            &quot;employee_age&quot;: 66,<br>            &quot;profile_image&quot;: &quot;&quot;<br>        },<br>        {<br>            &quot;id&quot;: 17,<br>            &quot;employee_name&quot;: &quot;Paul Byrd&quot;,<br>            &quot;employee_salary&quot;: 725000,<br>            &quot;employee_age&quot;: 64,<br>            &quot;profile_image&quot;: &quot;&quot;<br>        },<br>        {<br>            &quot;id&quot;: 18,<br>            &quot;employee_name&quot;: &quot;Gloria Little&quot;,<br>            &quot;employee_salary&quot;: 237500,<br>            &quot;employee_age&quot;: 59,<br>            &quot;profile_image&quot;: &quot;&quot;<br>        },<br>        {<br>            &quot;id&quot;: 19,<br>            &quot;employee_name&quot;: &quot;Bradley Greer&quot;,<br>            &quot;employee_salary&quot;: 132000,<br>            &quot;employee_age&quot;: 41,<br>            &quot;profile_image&quot;: &quot;&quot;<br>        },<br>        {<br>            &quot;id&quot;: 20,<br>            &quot;employee_name&quot;: &quot;Dai Rios&quot;,<br>            &quot;employee_salary&quot;: 217500,<br>            &quot;employee_age&quot;: 35,<br>            &quot;profile_image&quot;: &quot;&quot;<br>        },<br>        {<br>            &quot;id&quot;: 21,<br>            &quot;employee_name&quot;: &quot;Jenette Caldwell&quot;,<br>            &quot;employee_salary&quot;: 345000,<br>            &quot;employee_age&quot;: 30,<br>            &quot;profile_image&quot;: &quot;&quot;<br>        },<br>        {<br>            &quot;id&quot;: 22,<br>            &quot;employee_name&quot;: &quot;Yuri Berry&quot;,<br>            &quot;employee_salary&quot;: 675000,<br>            &quot;employee_age&quot;: 40,<br>            &quot;profile_image&quot;: &quot;&quot;<br>        },<br>        {<br>            &quot;id&quot;: 23,<br>            &quot;employee_name&quot;: &quot;Caesar Vance&quot;,<br>            &quot;employee_salary&quot;: 106450,<br>            &quot;employee_age&quot;: 21,<br>            &quot;profile_image&quot;: &quot;&quot;<br>        },<br>        {<br>            &quot;id&quot;: 24,<br>            &quot;employee_name&quot;: &quot;Doris Wilder&quot;,<br>            &quot;employee_salary&quot;: 85600,<br>            &quot;employee_age&quot;: 23,<br>            &quot;profile_image&quot;: &quot;&quot;<br>        }<br>    ],<br>    &quot;message&quot;: &quot;Successfully! All records has been fetched.&quot;<br>}</pre>
                                 </div>
@@ -316,16 +392,16 @@
                         </tr>
                     <tr class="test-ERROR">
 
-                        <td width="50" class="step-icon">
-                            <a name="1"></a>
-                                <span style="margin-left: 20px;"
-                                      class="top-level-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a>
+                        <td width="70" class="step-icon">
+                            <a name="0-1"></a>
+                                <span style="margin-left: 40px;"
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a>
                                 </span>
                         </td>
 
                         <td class="step-description-column">
                             <div class="step-description">
-                                    <span class="top-level-step">
+                                    <span class="nested-group-step">
                                                 Then she should be able to view the complete employee list with details
                                         </span>
                                 <span class="evidence">
@@ -333,8 +409,8 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="top-level-step">ERROR</span></td>
-                        <td width="100"><span class="top-level-step">0.01s</span></td>
+                        <td width="130"><span class="nested-group-step">ERROR</span></td>
+                        <td width="100"><span class="nested-group-step">0.01s</span></td>
                     </tr>
                         <tr class="test-ERROR">
                             <td width="40">&nbsp</td>
@@ -348,7 +424,7 @@
                     <span class="error-message error-message-title">java.lang.IllegalStateException: Expected BEGIN_OBJECT but was BEGIN_ARRAY at line 1 column 29 path $.data</span>
                 </div>
                 <div class="col-sm-2">
-                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-3""
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-4""
                        role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
                 </div>
              </div>
@@ -358,7 +434,7 @@
     <!-- Details Section -->
     <div class="row stacktrace-details">
       <div class="col">
-        <div class="collapse multi-collapse" id="stacktraceModal-3">
+        <div class="collapse multi-collapse" id="stacktraceModal-4">
             <div class="card">
                 <div class="card-header">
                     <h4>java.lang.IllegalStateException </h4>
@@ -374,10 +450,14 @@
     </div>
                             </td>
                         </tr>
+
+                                </table>
+                            </td>
+                        </tr>
                 <tr class="test-ERROR">
                         <td colspan="2"></td>
                     <td width="130"><span class="top-level-step"><em>ERROR</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>0.56s</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>0.6s</em></span></td>
                 </tr>
 
             </table>
